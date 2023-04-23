@@ -30,8 +30,6 @@ namespace MySolNftTracker.Models
 
         public override string ToString() => $"{Username}.";
 
-
-
         /*public bool ShowData { get; set; }
         public string Email { get; set; }
         public string Twitter { get; set; }
