@@ -129,7 +129,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HelperFunctions.cs" />
     <Compile Include="Models\AppUser.cs" />
+    <Compile Include="Models\Balance.cs" />
+    <Compile Include="Models\Collection.cs" />
+    <Compile Include="Models\NonFungibleToken.cs" />
+    <Compile Include="Models\OtherOperation.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\Wallet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
